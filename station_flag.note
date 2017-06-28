@@ -1,0 +1,3 @@
+0-N
+for stations with same number n (except 0), do cc, also do cc with group 0, but do not do cc with other numbers.
+for number 0, do cc with all other group, but do not do cc with all other group 0 members. 
