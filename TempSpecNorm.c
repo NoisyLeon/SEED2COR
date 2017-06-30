@@ -211,7 +211,6 @@ int TemperalNorm( char *fname, float **sig, SAC_HD *shd, int ithread) {
    }
    char recname[300];
    sprintf(recname,"%s_rec",fname);
-
    if( tnorm_flag==1 ) OneBit(*sig, shd);
    else if( tnorm_flag==2 ) RunAvg(*sig, shd);
    else if( tnorm_flag==3 || tnorm_flag==4 ) { if(!EqkCut(*sig, shd, recname, ithread)) return 0; }

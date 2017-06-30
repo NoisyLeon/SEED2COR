@@ -1,7 +1,6 @@
 #!/bin/bash
-seeddir=/rc_scratch/life9360/US_RECENT/SEED
-#lstdir=/lustre/janus_scratch/life9360/COR_US_CONTINENT/working_2004
-lstdir=/lustre/janus_scratch/life9360/COR_US_RECENT
+seeddir=/work3/leon/breq_fast/SEED
+lstdir=/work3/leon/breq_fast/
 if [ -e station.lst ]; then
 	        rm -f station.lst
 fi
