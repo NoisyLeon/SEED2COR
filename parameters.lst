@@ -1,7 +1,7 @@
-/home/leon/rdseedv5.3.1/rdseed					char rdsexe[]: rdseed excutable
-/home/leon/software/evalresp-3.3.3/evalresp			char evrexe[]: evalresp excutable
-/work3/leon/breq_fast/station.lst				char stalst[]: station list (J23A -129.6825 +44.844 optional_flag)(flag controls which sta-pairs to be ccd)
-/work3/leon/breq_fast/seed.lst					char seedlst[]: SEED file list (down_US_ALL/OBS_BHZ_2012.FEB.29.203762.seed 2012 2 29)
+/home/lili/.local/cps/bin/rdseed				char rdsexe[]: rdseed excutable
+/home/lili/.local/cps/bin/evalresp			char evrexe[]: evalresp excutable
+/home/lili/data/breq_fast/station.lst				char stalst[]: station list (J23A -129.6825 +44.844 optional_flag)(flag controls which sta-pairs to be ccd)
+/home/lili/data/breq_fast/seed.lst					char seedlst[]: SEED file list (down_US_ALL/OBS_BHZ_2012.FEB.29.203762.seed 2012 2 29)
 LHZ								char ch[]: channel name
 1								int sps: target sampling rate
 0.2								float gapfrac: maximum allowed gap fraction in input sac record

@@ -1,6 +1,6 @@
 #!/bin/bash
-seeddir=/work3/leon/breq_fast/SEED
-lstdir=/work3/leon/breq_fast/
+seeddir=/home/lili/data/breq_fast/SEED
+lstdir=/home/lili/data/breq_fast
 if [ -e station.lst ]; then
 	        rm -f station.lst
 fi

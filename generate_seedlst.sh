@@ -2,8 +2,8 @@
 year=2004
 m=1
 mon=JAN
-seeddir=/work3/leon/breq_fast/SEED
-lstdir=/work3/leon/breq_fast/seed.lst
+seeddir=/home/lili/data/breq_fast/SEED
+lstdir=/home/lili/data/breq_fast/seed.lst
 if [ -e seed.lst ]; then
         rm -f seed.lst
 fi

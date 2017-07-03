@@ -2,8 +2,8 @@ INST_DIR = $(HOME)/bin
 EXECUTABLE  = Seed2Cor
 
 fflags = -Wall
-cflags = -O2 -Wall ${DBG} -I/home/leon/code/Seed2Cor/include
-cflag2 = -Wall ${DBG} -I/home/leon/code/Seed2Cor/include
+cflags = -O2 -Wall ${DBG} -I./include
+cflag2 = -Wall ${DBG} -I./include
 #cflag2 = -Wall ${DBG} -I${HOME}/usr/include
 
 LDLIBS = -L${HOME}/usr/lib -lfftw3 -lstdc++ -lpthread -fopenmp 
